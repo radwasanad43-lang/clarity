@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clarity — Digital Solutions</title>
+  <link rel="icon" href="./favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="bg-white">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top border-bottom">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2 text-decoration-none" href="#hero">
+        <span class="brand-icon" aria-hidden="true"><i class="bi bi-box fs-5"></i></span>
+        <span class="brand-title">Clarity</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+          <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
+            <ul class="dropdown-menu shadow-sm">
+              <li><h6 class="dropdown-header">Build</h6></li>
+              <li><a class="dropdown-item" href="#services">Web dev</a></li>
+              <li><a class="dropdown-item" href="#services">Mobile apps</a></li>
+              <li><a class="dropdown-item" href="#services">UI / UX</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><h6 class="dropdown-header">Other</h6></li>
+              <li><a class="dropdown-item" href="#services">Cloud</a></li>
+              <li><a class="dropdown-item" href="#services">Marketing</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#technology">Technology</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <div class="d-flex gap-2">
+          <button type="button" class="btn-signin">Sign in</button>
+          <a href="#contact" class="btn btn-brand rounded-pill px-4 py-2">Get started</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero-wrap" id="hero">
+    <div class="container">
+      <div class="row align-items-center gy-5">
+        <div class="col-lg-7">
+          <span class="badge rounded-pill badge-soft px-3 py-2 mb-3">
+            <i class="bi bi-rocket-takeoff me-1"></i> Transforming Digital Experiences
+          </span>
+          <h1 class="display-4 fw-bold lh-sm mb-3">
+            <span class="gradient-text">Digital Solutions</span><br>
+            <span class="text-dark">That Drive</span><br>
+            <span class="gradient-text">Growth</span>
+          </h1>
+          <p class="lead text-secondary col-lg-11">
+            We craft innovative digital experiences that transform businesses and accelerate growth.
+            From cutting-edge web applications to mobile solutions, we deliver technology that makes a difference.
+          </p>
+          <div class="d-flex flex-wrap gap-2 mb-4">
+            <a href="#contact" class="btn btn-brand btn-lg px-4 rounded-pill">Start Your Project</a>
+            <button type="button" class="btn btn-watch-outline btn-lg px-4 rounded-pill">
+              <i class="bi bi-play-fill"></i> Watch demo
+            </button>
+          </div>
+          <div class="row text-center text-md-start g-3 pt-2 hero-stats">
+            <div class="col-4">
+              <div class="fs-3 fw-bold text-primary">500+</div>
+              <small class="text-secondary">Projects Delivered</small>
+            </div>
+            <div class="col-4">
+              <div class="fs-3 fw-bold text-primary">98%</div>
+              <small class="text-secondary">Client Satisfaction</small>
+            </div>
+            <div class="col-4">
+              <div class="fs-3 fw-bold text-primary">24/7</div>
+              <small class="text-secondary">Support</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="position-relative p-2">
+            <div class="rounded-4 bg-white shadow p-3 hero-photo-tilt">
+              <img
+                src="./assets/herosection.png"
+                class="img-fluid rounded-3"
+                alt="workspace photo">
+            </div>
+            <div class="position-absolute top-0 end-0 translate-middle-y d-none d-md-block">
+              <div class="rounded-3 shadow p-3 hero-floating-icon">
+                <i class="bi bi-code-slash text-white fs-3"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="services" class="py-5">
+    <div class="container py-lg-3">
+      <div class="text-center mb-5">
+        <span class="badge rounded-pill badge-soft px-3 py-2 mb-2"><i class="bi bi-gear me-1"></i> Our Services</span>
+        <h2 class="fw-bold">Comprehensive <span class="text-primary">Digital Solutions</span></h2>
+        <p class="text-secondary col-lg-8 mx-auto mt-2">
+          From concept to deployment, we provide end-to-end digital services that transform your business and engage your customers.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card p-4 h-100">
+            <div class="icon-box grad-a"><i class="bi bi-code-slash"></i></div>
+            <h3 class="h5 fw-bold">Web Development</h3>
+            <p class="text-secondary small">Custom web applications built with cutting-edge technologies. Responsive, scalable, and optimized for performance.</p>
+            <ul class="small text-secondary ps-3">
+              <li>React &amp; Next.js Development</li>
+              <li>E-commerce Solutions</li>
+              <li>Progressive Web Apps</li>
+            </ul>
+            <a href="#contact" class="small fw-semibold text-decoration-none">Learn more →</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card p-4 h-100">
+            <div class="icon-box grad-b"><i class="bi bi-phone"></i></div>
+            <h3 class="h5 fw-bold">Mobile Applications</h3>
+            <p class="text-secondary small">Native and cross-platform mobile apps that deliver exceptional user experiences across all devices.</p>
+            <ul class="small text-secondary ps-3">
+              <li>iOS &amp; Android Development</li>
+              <li>React Native &amp; Flutter</li>
+              <li>App Store Optimization</li>
+            </ul>
+            <a href="#contact" class="small fw-semibold text-decoration-none">Learn more →</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card p-4 h-100">
+            <div class="icon-box grad-c"><i class="bi bi-cloud"></i></div>
+            <h3 class="h5 fw-bold">Cloud Solutions</h3>
+            <p class="text-secondary small">Scalable cloud infrastructure and services that grow with your business needs and ensure maximum uptime.</p>
+            <ul class="small text-secondary ps-3">
+              <li>AWS &amp; Azure Integration</li>
+              <li>DevOps &amp; CI/CD</li>
+              <li>Microservices Architecture</li>
+            </ul>
+            <a href="#contact" class="small fw-semibold text-decoration-none">Learn more →</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card p-4 h-100">
+            <div class="icon-box grad-d"><i class="bi bi-cpu"></i></div>
+            <h3 class="h5 fw-bold">AI &amp; Machine Learning</h3>
+            <p class="text-secondary small">Intelligent solutions powered by artificial intelligence and machine learning to automate and optimize processes.</p>
+            <ul class="small text-secondary ps-3">
+              <li>Predictive Analytics</li>
+              <li>Natural Language Processing</li>
+              <li>Computer Vision</li>
+            </ul>
+            <a href="#contact" class="small fw-semibold text-decoration-none">Learn more →</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card p-4 h-100">
+            <div class="icon-box grad-e"><i class="bi bi-palette"></i></div>
+            <h3 class="h5 fw-bold">UI / UX Design</h3>
+            <p class="text-secondary small">User-centered design solutions that combine aesthetics with functionality for memorable digital experiences.</p>
+            <ul class="small text-secondary ps-3">
+              <li>Wireframing &amp; Prototyping</li>
+              <li>Design Systems</li>
+              <li>Accessibility &amp; Usability</li>
+            </ul>
+            <a href="#contact" class="small fw-semibold text-decoration-none">Learn more →</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card p-4 h-100">
+            <div class="icon-box grad-f"><i class="bi bi-graph-up-arrow"></i></div>
+            <h3 class="h5 fw-bold">Digital Marketing</h3>
+            <p class="text-secondary small">Data-driven marketing strategies that increase visibility, engagement, and conversions across channels.</p>
+            <ul class="small text-secondary ps-3">
+              <li>SEO &amp; SEM</li>
+              <li>Social Media &amp; Content</li>
+              <li>Analytics &amp; Reporting</li>
+            </ul>
+            <a href="#contact" class="small fw-semibold text-decoration-none">Learn more →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="technology" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-4">
+        <h2 class="fw-bold">Cutting-Edge <span class="text-primary">Technologies</span></h2>
+        <p class="text-secondary mb-0 col-lg-10 mx-auto">We leverage the latest technologies and frameworks to build scalable, secure, and high-performance solutions.</p>
+      </div>
+
+      <ul class="nav nav-pills justify-content-center flex-wrap gap-2 mb-4" id="techTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active rounded-pill px-3" id="t-frontend" data-bs-toggle="pill" data-bs-target="#pane-frontend" type="button">Frontend</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link rounded-pill px-3" id="t-backend" data-bs-toggle="pill" data-bs-target="#pane-backend" type="button">Backend</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link rounded-pill px-3" id="t-cloud" data-bs-toggle="pill" data-bs-target="#pane-cloud" type="button">Cloud</button>
+        </li>
+      </ul>
+
+      <div class="tab-content tech-pane">
+        <div class="tab-pane fade show active" id="pane-frontend">
+          <div class="row g-3">
+            <div class="col-md-4">
+              <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                  <h3 class="h6 fw-bold">React</h3>
+                  <p class="small text-secondary mb-2">Component libraries, hooks, SPAs.</p>
+                  <span class="badge bg-primary-subtle text-primary">SPA</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                  <h3 class="h6 fw-bold">Vue</h3>
+                  <p class="small text-secondary mb-2">Good for medium sites with forms.</p>
+                  <span class="badge bg-primary-subtle text-primary">Vue 3</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                  <h3 class="h6 fw-bold">Bootstrap</h3>
+                  <p class="small text-secondary mb-2">Fast layouts — like this page.</p>
+                  <span class="badge bg-primary-subtle text-primary">CSS</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pane-backend">
+          <div class="row g-3">
+            <div class="col-md-4">
+              <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                  <h3 class="h6 fw-bold">Node.js</h3>
+                  <p class="small text-secondary mb-2">APIs and realtime stuff.</p>
+                  <span class="badge bg-success-subtle text-success">JS</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                  <h3 class="h6 fw-bold">Python</h3>
+                  <p class="small text-secondary mb-2">Scripts, Django, data jobs.</p>
+                  <span class="badge bg-success-subtle text-success">Django</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                  <h3 class="h6 fw-bold">PostgreSQL</h3>
+                  <p class="small text-secondary mb-2">Relational data when you need rules.</p>
+                  <span class="badge bg-success-subtle text-success">SQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pane-cloud">
+          <div class="row g-3">
+            <div class="col-md-4">
+              <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                  <h3 class="h6 fw-bold">AWS</h3>
+                  <p class="small text-secondary mb-2">EC2, S3, Lambda for smaller jobs.</p>
+                  <span class="badge bg-warning-subtle text-warning">AWS</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                  <h3 class="h6 fw-bold">Docker</h3>
+                  <p class="small text-secondary mb-2">Same build on laptop and server.</p>
+                  <span class="badge bg-warning-subtle text-warning">Containers</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                  <h3 class="h6 fw-bold">GitHub Actions</h3>
+                  <p class="small text-secondary mb-2">Push to main → tests run.</p>
+                  <span class="badge bg-warning-subtle text-warning">CI</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="section-testimonials">
+    <div class="container px-4 px-lg-3">
+      <div class="text-center mb-5 pb-lg-2">
+        <span class="badge rounded-pill badge-soft px-3 py-2 mb-3"><i class="bi bi-heart me-1"></i> Client Testimonials</span>
+        <h2 class="section-heading-display mb-3">
+          <span class="text-dark">What Our</span>
+          <span class="gradient-text"> Clients Say</span>
+        </h2>
+        <p class="text-secondary lead mx-auto" style="max-width: 48rem;">
+          Don't just take our word for it. Here's what our clients have to say about working with us.
+        </p>
+      </div>
+
+      <div id="quoteCarousel" class="carousel slide carousel-dark carousel-testimonials-clarity mx-auto testimonial-carousel-wrap" data-bs-ride="carousel" data-bs-interval="6000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="px-1 pb-2">
+              <div class="testimonial-card-clarity">
+                <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between gap-3 mb-4">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="testimonial-quote-badge"><i class="bi bi-quote"></i></div>
+                    <div>
+                      <div class="text-warning lh-1 mb-1">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                      <small class="text-secondary fw-medium">5.0 Rating</small>
+                    </div>
+                  </div>
+                  <span class="testimonial-verified-pill"><i class="bi bi-patch-check-fill me-1"></i> Verified</span>
+                </div>
+                <blockquote class="fs-5 text-secondary fw-normal lh-lg mb-4 mb-md-5">
+                  “Clarity transformed our entire digital presence. Their team's expertise and dedication resulted in a 300% increase in our online sales. Absolutely phenomenal work!”
+                </blockquote>
+                <hr class="border-secondary opacity-25 my-4 my-md-5">
+                <div class="d-flex flex-column flex-md-row align-items-center justify-content-between gap-4">
+                  <div class="d-flex flex-column flex-md-row align-items-center gap-4 text-center text-md-start">
+                    <div class="testimonial-photo-wrap">
+                      <img src="./assets/client4.jpg" alt="client5">
+                      <span class="check-badge"><i class="bi bi-check-lg"></i></span>
+                    </div>
+                    <div>
+                      <div class="fw-bold fs-5 text-dark">Ahmed Al-Farsi</div>
+                      <div class="text-secondary">CEO, RetailMax</div>
+                      <div class="small text-secondary mt-2"><i class="bi bi-linkedin text-primary me-1"></i> Verified on LinkedIn</div>
+                    </div>
+                  </div>
+                  <div class="testimonial-stat text-center text-md-end d-none d-md-block">
+                    <div class="stat-num">300%</div>
+                    <div class="small text-secondary fw-medium">Growth</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="px-1 pb-2">
+              <div class="testimonial-card-clarity">
+                <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between gap-3 mb-4">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="testimonial-quote-badge"><i class="bi bi-quote"></i></div>
+                    <div>
+                      <div class="text-warning lh-1 mb-1">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                      <small class="text-secondary fw-medium">5.0 Rating</small>
+                    </div>
+                  </div>
+                  <span class="testimonial-verified-pill"><i class="bi bi-patch-check-fill me-1"></i> Verified</span>
+                </div>
+                <blockquote class="fs-5 text-secondary fw-normal lh-lg mb-4 mb-md-5">
+                  “The telemedicine platform they built for us has revolutionized how we serve our patients. The security, reliability, and user experience are all top-notch.”
+                </blockquote>
+                <hr class="border-secondary opacity-25 my-4 my-md-5">
+                <div class="d-flex flex-column flex-md-row align-items-center justify-content-between gap-4">
+                  <div class="d-flex flex-column flex-md-row align-items-center gap-4 text-center text-md-start">
+                    <div class="testimonial-photo-wrap">
+                      <img src="./assets/client1.png" alt="client1">
+                      <span class="check-badge"><i class="bi bi-check-lg"></i></span>
+                    </div>
+                    <div>
+                      <div class="fw-bold fs-5 text-dark">Dr. Michael Chen</div>
+                      <div class="text-secondary">Director, MedCare</div>
+                      <div class="small text-secondary mt-2"><i class="bi bi-linkedin text-primary me-1"></i> Verified on LinkedIn</div>
+                    </div>
+                  </div>
+                  <div class="testimonial-stat text-center text-md-end d-none d-md-block">
+                    <div class="stat-num">100K+</div>
+                    <div class="small text-secondary fw-medium">Patients</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="px-1 pb-2">
+              <div class="testimonial-card-clarity">
+                <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between gap-3 mb-4">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="testimonial-quote-badge"><i class="bi bi-quote"></i></div>
+                    <div>
+                      <div class="text-warning lh-1 mb-1">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                      <small class="text-secondary fw-medium">5.0 Rating</small>
+                    </div>
+                  </div>
+                  <span class="testimonial-verified-pill"><i class="bi bi-patch-check-fill me-1"></i> Verified</span>
+                </div>
+                <blockquote class="fs-5 text-secondary fw-normal lh-lg mb-4 mb-md-5">
+                  “Working with Clarity was a game-changer. Their mobile banking app exceeded all our expectations and has processed over $1 billion in transactions.”
+                </blockquote>
+                <hr class="border-secondary opacity-25 my-4 my-md-5">
+                <div class="d-flex flex-column flex-md-row align-items-center justify-content-between gap-4">
+                  <div class="d-flex flex-column flex-md-row align-items-center gap-4 text-center text-md-start">
+                    <div class="testimonial-photo-wrap">
+                      <img src="./assets/client2.png" alt="client2">
+                      <span class="check-badge"><i class="bi bi-check-lg"></i></span>
+                    </div>
+                    <div>
+                      <div class="fw-bold fs-5 text-dark">Eslam Salah</div>
+                      <div class="text-secondary">CTO, FinanceFlow</div>
+                      <div class="small text-secondary mt-2"><i class="bi bi-linkedin text-primary me-1"></i> Verified on LinkedIn</div>
+                    </div>
+                  </div>
+                  <div class="testimonial-stat text-center text-md-end d-none d-md-block">
+                    <div class="stat-num">$1B+</div>
+                    <div class="small text-secondary fw-medium">Processed</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="px-1 pb-2">
+              <div class="testimonial-card-clarity">
+                <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between gap-3 mb-4">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="testimonial-quote-badge"><i class="bi bi-quote"></i></div>
+                    <div>
+                      <div class="text-warning lh-1 mb-1">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                      <small class="text-secondary fw-medium">5.0 Rating</small>
+                    </div>
+                  </div>
+                  <span class="testimonial-verified-pill"><i class="bi bi-patch-check-fill me-1"></i> Verified</span>
+                </div>
+                <blockquote class="fs-5 text-secondary fw-normal lh-lg mb-4 mb-md-5">
+                  “The AI-powered analytics dashboard they created has given us insights we never had before. Our decision-making process has become so much more data-driven and effective.”
+                </blockquote>
+                <hr class="border-secondary opacity-25 my-4 my-md-5">
+                <div class="d-flex flex-column flex-md-row align-items-center justify-content-between gap-4">
+                  <div class="d-flex flex-column flex-md-row align-items-center gap-4 text-center text-md-start">
+                    <div class="testimonial-photo-wrap">
+                      <img src="./assets/client3.jpg" alt="client3">
+                      <span class="check-badge"><i class="bi bi-check-lg"></i></span>
+                    </div>
+                    <div>
+                      <div class="fw-bold fs-5 text-dark">James Wilson</div>
+                      <div class="text-secondary">VP of Operations, TechCorp</div>
+                      <div class="small text-secondary mt-2"><i class="bi bi-linkedin text-primary me-1"></i> Verified on LinkedIn</div>
+                    </div>
+                  </div>
+                  <div class="testimonial-stat text-center text-md-end d-none d-md-block">
+                    <div class="stat-num">10X</div>
+                    <div class="small text-secondary fw-medium">Insights</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="px-1 pb-2">
+              <div class="testimonial-card-clarity">
+                <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between gap-3 mb-4">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="testimonial-quote-badge"><i class="bi bi-quote"></i></div>
+                    <div>
+                      <div class="text-warning lh-1 mb-1">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                      <small class="text-secondary fw-medium">5.0 Rating</small>
+                    </div>
+                  </div>
+                  <span class="testimonial-verified-pill"><i class="bi bi-patch-check-fill me-1"></i> Verified</span>
+                </div>
+                <blockquote class="fs-5 text-secondary fw-normal lh-lg mb-4 mb-md-5">
+                  “Their cloud migration service was flawless. Zero downtime, improved performance, and significant cost savings. The team's expertise is unmatched.”
+                </blockquote>
+                <hr class="border-secondary opacity-25 my-4 my-md-5">
+                <div class="d-flex flex-column flex-md-row align-items-center justify-content-between gap-4">
+                  <div class="d-flex flex-column flex-md-row align-items-center gap-4 text-center text-md-start">
+                    <div class="testimonial-photo-wrap">
+                      <img src="./assets/client4.jpg" alt="client4">
+                      <span class="check-badge"><i class="bi bi-check-lg"></i></span>
+                    </div>
+                    <div>
+                      <div class="fw-bold fs-5 text-dark">Omar Wael</div>
+                      <div class="text-secondary">IT Director, GlobalTech</div>
+                      <div class="small text-secondary mt-2"><i class="bi bi-linkedin text-primary me-1"></i> Verified on LinkedIn</div>
+                    </div>
+                  </div>
+                  <div class="testimonial-stat text-center text-md-end d-none d-md-block">
+                    <div class="stat-num">0%</div>
+                    <div class="small text-secondary fw-medium">Downtime</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#quoteCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#quoteCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#quoteCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#quoteCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#quoteCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+
+        <button class="carousel-control-prev d-none" type="button" data-bs-target="#quoteCarousel" data-bs-slide="prev" tabindex="-1"><span class="carousel-control-prev-icon"></span></button>
+        <button class="carousel-control-next d-none" type="button" data-bs-target="#quoteCarousel" data-bs-slide="next" tabindex="-1"><span class="carousel-control-next-icon"></span></button>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="py-5 bg-light">
+    <div class="container faq-narrow">
+      <h2 class="fw-bold text-center mb-4">FAQ</h2>
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">How much does a project cost?</button>
+          </h2>
+          <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+            <div class="accordion-body text-secondary">
+              Depends on scope. A simple marketing site is not the same as a logged-in SaaS. We usually start with a short call and a written estimate.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">How long until launch?</button>
+          </h2>
+          <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body text-secondary">
+              Small sites: a few weeks. Bigger apps: months. We’ll give a timeline before coding starts.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">Do you maintain projects after launch?</button>
+          </h2>
+          <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body text-secondary">
+              Yes — either a monthly block of hours or pay-as-you-go for fixes and small features.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">What stack do you use?</button>
+          </h2>
+          <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body text-secondary">
+              Mostly modern JS on the front, Node or Python on the back, Postgres for data, and a cloud host that fits your budget.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="badge rounded-pill badge-soft px-3 py-2 mb-3 d-inline-block"><i class="bi bi-rocket-takeoff me-1"></i> Let’s Start Your Journey</span>
+        <h2 class="fw-bold display-6">Ready to <span class="text-primary">Transform</span>?</h2>
+        <p class="text-secondary col-lg-10 mx-auto lead">Take the first step towards digital excellence. Our experts are ready to turn your vision into reality.</p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="card border-0 shadow">
+            <div class="row g-0">
+              <div class="col-lg-8 p-4 p-lg-5">
+                <h3 class="h5 fw-bold mb-2">Get Your Free Consultation</h3>
+                <p class="text-secondary small mb-4">Fill out the form and we’ll get back to you within 24 hours with a personalized proposal.</p>
+                <form action="#" method="post">
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <label class="form-label small fw-semibold">First name *</label>
+                      <input type="text" class="form-control" required placeholder="Alex">
+                    </div>
+                    <div class="col-md-6">
+                      <label class="form-label small fw-semibold">Last name *</label>
+                      <input type="text" class="form-control" required placeholder="Rivera">
+                    </div>
+                    <div class="col-md-6">
+                      <label class="form-label small fw-semibold">Email *</label>
+                      <input type="email" class="form-control" required placeholder="you@example.com">
+                    </div>
+                    <div class="col-md-6">
+                      <label class="form-label small fw-semibold">Company</label>
+                      <input type="text" class="form-control" placeholder="Optional">
+                    </div>
+                    <div class="col-12">
+                      <label class="form-label small fw-semibold">Project notes</label>
+                      <textarea class="form-control" rows="4" placeholder="What are you trying to ship? Any deadlines?"></textarea>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="okemail">
+                        <label class="form-check-label small text-secondary" for="okemail">
+                          OK to email me about this request
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-brand btn-lg w-100 rounded-3">Send message</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-lg-4 side-panel p-4 p-lg-5 d-flex flex-column justify-content-center">
+                <h3 class="h5 fw-bold mb-4">Why Choose Clarity?</h3>
+                <ul class="list-unstyled small mb-4">
+                  <li class="mb-3"><i class="bi bi-clock me-2"></i> 24-hour response on inquiries</li>
+                  <li class="mb-3"><i class="bi bi-shield-check me-2"></i> 100% satisfaction commitment</li>
+                  <li class="mb-3"><i class="bi bi-people me-2"></i> Expert team of certified professionals</li>
+                </ul>
+                <hr class="border-light opacity-25">
+                <p class="small mb-1"><i class="bi bi-telephone me-2"></i> +1 (555) 123-4567</p>
+                <p class="small mb-1"><i class="bi bi-envelope me-2"></i> hello@clarity.com</p>
+                <p class="small mb-0"><i class="bi bi-geo-alt me-2"></i> San Francisco, CA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="border-top py-5 mt-3 bg-white">
+    <div class="container">
+      <div class="row align-items-center gy-4">
+        <div class="col-md-7">
+          <div class="d-flex align-items-center mb-2">
+            <span class="brand-icon brand-icon-sm"><i class="bi bi-box-seam small"></i></span>
+            <span class="fw-bold ms-1">Clarity</span>
+          </div>
+          <p class="text-secondary small mb-0 col-lg-10">
+            Transforming businesses through innovative digital solutions and cutting-edge technology.
+          </p>
+        </div>
+        <div class="col-md-5 text-md-end">
+          <a href="#" class="btn btn-outline-secondary btn-sm rounded-circle me-1" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="btn btn-outline-secondary btn-sm rounded-circle me-1" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="btn btn-outline-secondary btn-sm rounded-circle me-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
+        </div>
+      </div>
+      <div class="text-center text-secondary small mt-4 pt-3 border-top">
+        © 2026 Clarity. Made for class / portfolio demo.
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
